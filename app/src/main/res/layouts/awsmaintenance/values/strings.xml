@@ -1,0 +1,51 @@
+<resources>
+    <string name="aws_StateMan">State *</string>
+    <string name="aws_DistrictMan">District *</string>
+    <string name="aws_ThesilBlockMandalMan">Tehsil/Block/Mandal *</string>
+    <string name="aws_AWSLocationVillageMan">AWS Location (Village) *</string>
+    <string name="aws_BARCODESCANMan">BARCODE SCAN *</string>
+    <string name="aws_LASTSCANDATEMan">LAST SCAN DATE *</string>
+    <string name="aws_PurposeofVisitMan">Purpose of Visit *</string>
+    <string name="aws_ProblemIdentifiedMan">Problem Identified *</string>
+    <string name="aws_AnyFaultyComponentMan">Any Component Faulty *</string>
+    <string name="aws_ReasonforrelocationMan">Reason for relocation *</string>
+    <string name="aws_IsalltheSensorsWorkingMan">Is all the Sensors Working *</string>
+    <string name="aws_BatteryVoltageMan">Battery Voltage *</string>
+    <string name="aws_SolarPanelVoltageMan">Solar Panel Voltage *</string>
+    <string name="aws_IMEINumberMan">IMEI Number *</string>
+    <string name="aws_SIMNumberMan">SIM Number *</string>
+    <string name="aws_SIMNetworkMan">SIM Network *</string>
+    <string name="aws_WhethertheDatatransmittedMan">Whether the Data transmitted to server *</string>
+    <string name="aws_GPSCoordinatesofAWSMan">GPS Coordinate of AWS *</string>
+    <string name="aws_AWSPropertyMan">AWS Property  *</string>
+    <string name="aws_HostPaymentPaiduptoMan">Host Payment Paid upto *</string>
+    <string name="aws_CommentsMan">Comments *</string>
+    <string name="aws_SensorNameMan">Sensor Name *</string>
+
+    <string name="aws_State">State</string>
+    <string name="aws_District">District</string>
+    <string name="aws_ThesilBlockMandal">Tehsil/Block/Mandal</string>
+    <string name="aws_AWSLocationVillage">AWS Location (Village)</string>
+    <string name="aws_BARCODESCAN">BARCODE SCAN</string>
+    <string name="aws_LASTSCANDATE">LAST SCAN DATE</string>
+    <string name="aws_PurposeofVisit">Purpose of Visit</string>
+    <string name="aws_ProblemIdentified">Problem Identified</string>
+    <string name="aws_AnyFaultyComponent">Any Component Faulty</string>
+    <string name="aws_Reasonforrelocation">Reason for relocation</string>
+    <string name="aws_IsalltheSensorsWorking">Is all the Sensors Working</string>
+    <string name="aws_BatteryVoltage">Battery Voltage</string>
+    <string name="aws_SolarPanelVoltage">Solar Panel Voltage</string>
+    <string name="aws_IMEINumber">IMEI Number</string>
+    <string name="aws_SIMNumber">SIM Number</string>
+    <string name="aws_SIMNetwork">SIM Network</string>
+    <string name="aws_WhethertheDatatransmitted">Whether the Data transmitted to server</string>
+    <string name="aws_GPSCoordinatesofAWS">GPS Coordinate of AWS</string>
+    <string name="aws_SaveGPSCoordinatesofAWS">Save GPS Coordinate of AWS</string>
+    <string name="aws_AWSProperty">AWS Property </string>
+    <string name="aws_HostPaymentPaidupto">Host Payment Paid upto</string>
+    <string name="aws_Comments">Comments</string>
+    <string name="aws_SensorName">Sensor Name</string>
+    <string name="aws_AWSMaintenance">AWS Maintenance</string>
+    <string name="aws_ScanedBarCode">Scanned Barcode</string>
+
+</resources>

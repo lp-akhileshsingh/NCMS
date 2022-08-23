@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="4sp">
+
+    <TextView
+        android:id="@+id/tvUniqueId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/style_text_view_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.34"
+            android:text="@string/cs_Survey_Date" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            style="@style/style_text_view_bold"
+            android:gravity="center_vertical"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvSurveyDate"
+            style="@style/style_text_view_colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.63"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/style_text_view_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.34"
+            android:text="@string/label_state_view" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            style="@style/style_text_view_bold"
+            android:gravity="center_vertical"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvState"
+            style="@style/style_text_view_colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.63"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/style_text_view_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.34"
+            android:text="@string/label_district_view" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            style="@style/style_text_view_bold"
+            android:gravity="center_vertical"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvDistrict"
+            style="@style/style_text_view_colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.63"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/style_text_view_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.34"
+            android:text="@string/label_block_view" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            style="@style/style_text_view_bold"
+            android:gravity="center_vertical"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvBlock"
+            style="@style/style_text_view_colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.63"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/style_text_view_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.34"
+            android:text="@string/rs_GPSBasedSurvey" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            style="@style/style_text_view_bold"
+            android:gravity="center_vertical"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvGPSBasedSurvey"
+            style="@style/style_text_view_colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.63"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+</LinearLayout>

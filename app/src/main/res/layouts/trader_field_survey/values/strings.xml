@@ -1,0 +1,48 @@
+<resources>
+    <string name="tfs_TraderFieldSurvey">Trader Field Survey</string>
+    <string name="tfs_TraderFieldSurveyFormUploadedFiles">Trader Field Survey Form Uploaded Files</string>
+    <string name="tfs_RespondentView">Respondent</string>
+    <string name="tfs_Respondent">Respondent *</string>
+    <string name="tfs_Respondent_view">Respondent</string>
+    <string name="tfs_OtherRespondent">Other Respondent </string>
+    <string name="tfs_NameOFRespondent">Name Of Respondent *</string>
+    <string name="tfs_NameOFRespondent_view">Name Of Respondent</string>
+    <string name="tfs_MobileNumber">Mobile Number *</string>
+    <string name="tfs_MobileNumber_view">Mobile Number</string>
+    <string name="tfs_Monsoon_onset">Monsoon onset in your area </string>
+    <string name="tfs_How_is_rainfall_pattern">How is rainfall pattern  vis-a vis last year with relation to crop *</string>
+    <string name="tfs_How_is_rainfall_pattern_view">How is rainfall pattern  vis-a vis last year with relation to crop</string>
+    <string name="tfs_How_are_rains">How are rains in last 15 days *</string>
+    <string name="tfs_How_are_rains_view">How are rains in last 15 days</string>
+    <string name="tfs_Remarks_on_rainfal">Remarks  on rainfall pattern if any </string>
+    <string name="tfs_CropSown1">Crop sown -1 (Primary crop) </string>
+    <string name="tfs_Major_varities">Major varieties</string>
+    <string name="tfs_Approx_Sowing_Date">Approx Sowing Date </string>
+    <string name="tfs_Expected_Harvest_date">Expected Harvest Date </string>
+    <string name="tfs_How_many_days_old">How many days old crop (in days from sowing) </string>
+    <string name="tfs_What_is_the_stage">What is the stage of crop </string>
+    <string name="tfs_How_is_the_current_crop">How is the current crop condition vis a vis last year </string>
+    <string name="tfs_Pest_attack_in_area">Pest attack in area </string>
+    <string name="tfs_Pest_attack_type">Pest attack type</string>
+    <string name="tfs_Average_Yield">Average Yield range  last year(Quintal per Acre) </string>
+    <string name="tfs_Expected_yield">Expected yield Current season (Quintal per Acre) </string>
+    <string name="tfs_CropSown2">Crop sown -2 (Secondary crop) </string>
+    <string name="tfs_CropSown3">Crop sown -3 (Tertiary crop) </string>
+    <string name="tfs_GPS_Coordinates">GPS Coordinates </string>
+    <string name="tfs_Crop_risk_in_Taluka">Crop risk in Taluka / Block / taluka level </string>
+    <string name="tfs_Taluka">Taluka </string>
+    <string name="tfs_BlockVillage">Block / Village </string>
+    <string name="tfs_CropName">Crop name </string>
+    <string name="tfs_Damage_due_Abiotic_factor">Damage due Abiotic factor </string>
+    <string name="tfs_percentOfCropDamage">% of Crop damage </string>
+    <string name="tfs_Damage_due_Biotic_Factor">Damage due Biotic Factor </string>
+    <string name="tfs_Remark">Remark </string>
+    <string name="tfs_FromExpectedHarvest">From Expected Harvest Date</string>
+    <string name="tfs_ToExpectedHarvest">To Expected Harvest Date</string>
+    <string name="tfs_From_Approx_Sowing_Date">From Approx Sowing Date</string>
+    <string name="tfs_To_Approx_Sowing_Date">To Approx Sowing Date</string>
+    <string name="tfs_trader_upload_head">Trader Field Survey Form Uploaded Files</string>
+
+
+
+</resources>

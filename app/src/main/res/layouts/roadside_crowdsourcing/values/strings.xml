@@ -1,0 +1,30 @@
+<resources>
+    <string name="rs_GPSBasedSurveyMan">GPS based Survey *</string>
+    <string name="rs_GPSCoordinatesMan">GPS Coordinates (accuracy to be 20 mt) *</string>
+    <string name="rs_SaveGPSCoordinatesMan">Save GPS Coordinates (accuracy to be 20 mt) *</string>
+    <string name="rs_LeftSideCropNameMan">Left side crop name *</string>
+    <string name="rs_LeftSideCropStageMan">Left side crop stage *</string>
+    <string name="rs_LeftSideCropConditionMan">Left side crop condition *</string>
+    <string name="rs_RightSideCropNameMan">Right side crop name *</string>
+    <string name="rs_RightSideCropStageMan">Right side crop stage *</string>
+    <string name="rs_RightSideCropConditionMan">Right side crop condition *</string>
+    <string name="rs_CropNameMan">Crop name *</string>
+    <string name="rs_CropStageMan">Crop stage *</string>
+    <string name="rs_CurrentCropConditionMan">Current crop condition *</string>
+
+    <string name="rs_Comments">Comments</string>
+    <string name="rs_RoadSideCrowdSourcing">Road Side Crowd Sourcing</string>
+    <string name="rs_Village">Village</string>
+    <string name="rs_GPSBasedSurvey">GPS based Survey </string>
+    <string name="rs_GPSCoordinates">GPS Coordinates (accuracy to be 20 mt) </string>
+    <string name="rs_LeftSideCropName">Left side crop name </string>
+    <string name="rs_LeftSideCropStage">Left side crop stage </string>
+    <string name="rs_LeftSideCropCondition">Left side crop condition </string>
+    <string name="rs_RightSideCropName">Right side crop name </string>
+    <string name="rs_RightSideCropStage">Right side crop stage </string>
+    <string name="rs_RightSideCropCondition">Right side crop condition </string>
+    <string name="rs_CropName">Crop name </string>
+    <string name="rs_CropStage">Crop stage </string>
+    <string name="rs_CurrentCropCondition">Current crop condition </string>
+    <string name="rs_AWSInstallation">AWS Installation</string>
+</resources>

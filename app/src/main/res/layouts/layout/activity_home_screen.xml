@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_background"
+    tools:context=".ActivityHomeScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvWelcome"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvRoles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvFullName"
+            android:layout_marginBottom="10sp"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvIsUAT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvRoles"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10sp"
+            android:text="@string/uat_app_"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llmain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llSyncMaster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnSyncMaster"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/sync_masters"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/sync_master_btn"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCCEMForm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnCCEMForm"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ccem_form_btn"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llForm2Collection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnForm2Collection"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/form2_btn"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCropSurvey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnCropSurvey"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/cs_Crop_Survey"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSiteSurvey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnSiteSurvey"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ss_Site_Survey"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llNewCCE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnNewCCE"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/title_New_CCE"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llDriage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnDriage"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/driage_form_btn"
+                    android:textColor="#fff" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llTraderFieldSurvey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnTraderFieldSurvey"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/tfs_TraderFieldSurvey"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llLossAssessment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnLossAssessment"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/lossAssessment_btn"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCropMonitoring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnCropMonitoring"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/cropMonitoring_btn"
+                    android:textColor="#fff" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llAWSMaintenance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnAWSMaintenance"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/aws_AWSMaintenance"
+                    android:textColor="#fff" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llRoadSideCrowdSourcing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnRoadSideCrowdSourcing"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/rs_RoadSideCrowdSourcing"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llAWSInstallation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnAWSInstallation"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/rs_AWSInstallation"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llIssuedForm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnIssuedForm"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_form"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/issuedFormReport_btn"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llFormReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnFormReport"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/ic_reports"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/surveyFormReport_btn"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSyncForms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnSyncForms"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/syncpra"
+                    android:paddingBottom="30dp"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="25dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/sync_form_btn"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llChangePassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                tools:ignore="RtlHardcoded">
+
+                <Button
+                    android:id="@+id/btnChangePassword"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/circle"
+                    android:drawableLeft="@drawable/change_pass"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="15dp"
+                    android:textAllCaps="false"
+
+                    android:textColor="#fff"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/change_password_btn"
+                    android:textColor="#fff" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:gravity="center_horizontal|bottom"
+        android:text="@string/credits"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<resources>
+    <string name="aws_AWSInstallation">AWS Installation</string>
+    <string name="awsinst_HostName">Host Name</string>
+    <string name="awsinst_label_HostNameMandatory">Host Name *</string>
+    <string name="awsinst_label_HostAddressMandatory">Host Address *</string>
+    <string name="awsinst_label_LandMarkMandatory">Land Mark *</string>
+    <string name="awsinst_Survey_Date">Survey Date</string>
+    <string name="awsinst_mobile">Host Mobile *</string>
+    <string name="awsinst_host_bankaccno_mandatory">Host Bank Account No *</string>
+    <string name="awsinst_host_account_mandatory">Host Account holder Name *</string>
+    <string name="awsinst_bank_mandatory">Bank *</string>
+    <string name="awsinst_ifsc_mandatory">IFSC Code *</string>
+    <string name="awsinst_branch_mandatory">Branch *</string>
+    <string name="arthsensor_sectionhead">ARTH Sensor</string>
+    <string name="anemometersensor_sectionhead">Anemometer Sensor</string>
+    <string name="raingaugesensor_sectionhead">Rain gauge Sensor</string>
+    <string name="datalogger_sectionhead">Data Logger</string>
+    <string name="solarradiation_sectionhead">Solar Radiation</string>
+    <string name="pressuresensor_sectionhead">Pressure Sensor</string>
+    <string name="soilmoisturesensor_sectionhead">Soil Moisture Sensor</string>
+    <string name="soiltemperaturesensor_sectionhead">Soil temperature Sensor</string>
+    <string name="leafwetnesssensor_sectionhead">Leaf Wetness Sensor</string>
+    <string name="sunshinesensor_sectionhead">Sun Shine Sensor</string>
+
+    <string name="sensor_make_mandatory">Make *</string>
+    <string name="sensor_make">Make</string>
+    <string name="sensor_model_mandatory">Model *</string>
+    <string name="sensor_model">Model</string>
+
+    <string name="dataloggerimeino_mandatory">Data Logger IMEI No *</string>
+    <string name="simnumber_mandatory">SIM Number *</string>
+    <string name="serviceprovider_mandatory">SIM Network *</string>
+    <string name="sdcardstorage_mandatory">SD Card Storage memory *</string>
+    <string name="solarpanelmakewatt_mandatory">Solar Panel Make/Watts *</string>
+    <string name="solarpaneloutput_mandatory">Solar Panel Out put Voltage *</string>
+    <string name="batterymakemodel_mandatory">Battery Make/Model *</string>
+    <string name="batteryoutput_mandatory">Battery Output Voltage *</string>
+    <string name="isawsasperguideline_mandatory">Whether AWS Installed
+        as per Guidelines *</string>
+    <string name="awsheight_mandatory">Height of AWS Mast/Pole from Ground level(in feets) *</string>
+    <string name="nearobstacle_mandatory">Any Obstacles near AWS? *</string>
+    <string name="isdatatranmitted_mandatory">Whether the Data transmitted to server *</string>
+    <string name="distanceofawsfromobstacle_mandatory">Distance of AWS from Obstacle(in meter) *</string>
+
+
+    <string name="awsinst_label_HostName">Host Name</string>
+    <string name="awsinst_label_HostAddress">Host Address</string>
+    <string name="awsinst_label_LandMark">Land Mark</string>
+    <string name="awsinst_mobile_name">Host Mobile</string>
+    <string name="awsinst_host_bankaccno">Host Bank Account No</string>
+    <string name="awsinst_host_account">Host Account holder Name</string>
+    <string name="awsinst_bank">Bank</string>
+    <string name="awsinst_ifsc">IFSC Code</string>
+    <string name="awsinst_branch">Branch</string>
+
+    <string name="dataloggerimeino">Data Logger IMEI No</string>
+    <string name="simnumber">SIM Number</string>
+    <string name="serviceprovider">SIM Network</string>
+    <string name="sdcardstorage">SD Card Storage memory</string>
+    <string name="solarpanelmakewatt">Solar Panel Make/Watts</string>
+    <string name="solarpaneloutput">Solar Panel Out put Voltage</string>
+    <string name="batterymakemodel">Battery Make/Model</string>
+    <string name="batteryoutput">Battery Output Voltage</string>
+    <string name="isawsasperguideline">Whether AWS Installed as per Guidelines</string>
+    <string name="awsheight">Height of AWS Mast/Pole from Ground level(in feets)</string>
+    <string name="nearobstacle">Any Obstacles near AWS?</string>
+    <string name="isdatatranmitted">Whether the Data transmitted to server</string>
+    <string name="distanceofawsfromobstacle">Distance of AWS from Obstacle(in meter)</string>
+
+</resources>

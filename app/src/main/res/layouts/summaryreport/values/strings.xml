@@ -1,0 +1,6 @@
+<resources>
+    <string name="label_summary_head">Form Summary Report</string>
+    <string name="label_form_name">Form Name</string>
+    <string name="label_pending">Pending</string>
+    <string name="label_submitted">Submitted</string>
+</resources>

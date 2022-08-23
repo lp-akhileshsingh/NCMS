@@ -1,0 +1,13 @@
+<resources>
+    <string name="label_form2_head">Form2 Collection</string>
+    <string name="label_form2_upload_head">View Form 2 Collection Uploaded Images</string>
+    <string name="label_form2_summary_head">Form 2 Collection Summary</string>
+    <string name="label_ccem_search">Search CCEM Form</string>
+    <string name="label_search_text">Enter Search Text *</string>
+    <string name="label_form2_summary_view_head">Form 2 Collection Detail</string>
+    <string name="label_form2_create_head">Create Form 2 Collection Detail</string>
+    <string name="label_wet_weight_details">Wet Weight in Kgs *</string>
+    <string name="label_dry_weight_details">Dry Weight in Kgs *</string>
+    <string name="label_wet_weight_view">Wet Weight in Kgs</string>
+    <string name="label_dry_weight_view">Dry Weight in Kgs</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="label_cropmonitoring_head">Crop Monitoring</string>
+    <string name="label_age_crop">Age of Crop(in days) * </string>
+    <string name="label_age_crop_view">Age of Crop(in days)</string>
+</resources>

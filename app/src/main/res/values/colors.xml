@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCD93D</color>
+    <color name="colorPrimaryDark">#FCD93D</color>
+    <color name="colorAccent">#FCD93D</color>
+
+    <color name="ncmlblue">#2A5C8F</color>
+    <color name="ncmlyellow">#FCD93D</color>
+    <color name="ncmlblack">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#ffff00</color>
+    <color name="orangeshade">#FFA62F</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="ldrawer_color">#FFFFFF</color>
+    <color name="actionbar_color">#FFF1B2</color>
+    <color name="drawer_arrow_second_color">#303f9f</color>
+    <color name="barDarkColor">#CECECE</color>
+    <color name="barMeduimColor">#DFDEE0</color>
+    <color name="barLightColor">#F2F2F2</color>
+    <color name="blue">#2A5C8F</color>
+    <color name="lpblue">#086dad</color>
+    <color name="sendLightColor">#8897BF</color>
+    <color name="sendMeduimColor">#3340cc</color>
+    <color name="sendDarkColor">#81a1e0</color>
+    <color name="dialog_background_color">#3340cc</color>
+    <color name="colorDarkGrey">#4D4D4D</color>
+    <color name="colorLightGrey">#8D8D8D</color>
+    <color name="black">#000000</color>
+    <color name="colorEditText">#A2A2A2</color>
+    <color name="colorEditTextBorder">#DEDEDE</color>
+    <color name="brown">#794c13</color>
+    <color name="scanner_line">#00ceff</color>
+
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
+
+    <color name="user_input_color">#FFFFFF</color>
+    <color name="unfocused_color">#FFFFFF</color>
+</resources>

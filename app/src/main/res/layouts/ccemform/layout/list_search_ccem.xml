@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="4sp">
+
+    <TextView
+        android:id="@+id/tvCCEMFormId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/style_text_view_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="@string/label_survey_date" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            style="@style/style_text_view_bold"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvSurveyDate"
+            style="@style/style_text_view_colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.68"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/style_text_view_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="@string/label_govt_officer_name_view" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            style="@style/style_text_view_bold"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvOfficerName"
+            style="@style/style_text_view_colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.68"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/style_text_view_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="@string/label_random_view" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            style="@style/style_text_view_bold"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvRandomNo"
+            style="@style/style_text_view_colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.68"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/style_text_view_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="@string/label_season_view" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            style="@style/style_text_view_bold"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvSeason"
+            style="@style/style_text_view_colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.68"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/style_text_view_bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="@string/label_crop_view" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            style="@style/style_text_view_bold"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvCrop"
+            style="@style/style_text_view_colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.68"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            style="@style/style_text_view_bold"
+            android:text="@string/label_CCEPlotKrasraSurveyNo" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            style="@style/style_text_view_bold"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvCPLSNo"
+            style="@style/style_text_view_colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.68"
+            android:text="@string/app_name" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_vertical_padding"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            style="@style/style_text_view_bold"
+            android:text="@string/label_ExperimentWeight" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            style="@style/style_text_view_bold"
+            android:text=":" />
+
+        <TextView
+            android:id="@+id/tvExpWt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.68"
+            style="@style/style_text_view_colored"
+            android:text="@string/app_name" />
+    </LinearLayout>
+</LinearLayout>

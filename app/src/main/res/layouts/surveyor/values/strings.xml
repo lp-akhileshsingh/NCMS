@@ -1,0 +1,25 @@
+<resources>
+    <string name="user_Registration">Surveyor Registration</string>
+    <string name="device_UniqueId">Get Device Id</string>
+    <string name="first_Name">First Name *</string>
+    <string name="last_Name">Last Name *</string>
+    <string name="mobile_Number">Mobile Number *</string>
+    <string name="alternate_Mobile_Number">Alternate Mobile Number</string>
+    <string name="relation_with_Person">Relation with person with alternate Mobile Number</string>
+    <string name="address">Address *</string>
+    <string name="state">State *</string>
+    <string name="district">District *</string>
+    <string name="bank_Account_Number">Bank Account Number *</string>
+    <string name="account_Holder_Name">Account Holder Name *</string>
+    <string name="iFSC_Code">IFSC Code *</string>
+    <string name="iD_Proof">ID Proof *</string>
+    <string name="iD_Number">ID Number *</string>
+    <string name="type_of_Employee">Type of Employee *</string>
+    <string name="pan_Card">PAN Card</string>
+    <string name="bankDetails">Bank Details</string>
+    <string name="personalDetails">Personal Details</string>
+    <string name="addessDetails">Addess Details</string>
+    <string name="upload_ID_Proof">Upload ID Proof</string>
+    <string name="upload_Bank_Passbook">Upload Bank Passbook/Cheque</string>
+    <string name="email">Email</string>
+</resources>

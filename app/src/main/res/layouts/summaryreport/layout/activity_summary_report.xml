@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_background"
+    tools:context=".SummaryReport.ActivitySummaryReport">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/style_topBar"
+            android:text="@string/label_summary_head" />
+
+        <TableLayout
+            android:id="@+id/tableGridHead"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="30sp"
+            android:visibility="visible">
+
+            <TableRow
+                style="@style/style_tableHead"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                tools:ignore="UselessParent">
+
+                <!-- 1/0 -->
+
+                <TextView
+                    android:id="@+id/tvName"
+                    style="@style/style_text_view_bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:textSize="16dp"
+                    android:text="@string/label_form_name" />
+
+                <TextView
+                    android:id="@+id/tvPending"
+                    style="@style/style_text_view_bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".20"
+                    android:gravity="right"
+                    android:textSize="16dp"
+                    android:text="@string/label_pending" />
+
+                <TextView
+                    android:id="@+id/tvSubmitted"
+                    style="@style/style_text_view_bold"
+                    android:layout_width="0dp"
+                    android:layout_weight=".30"
+                    android:gravity="right"
+                    android:textSize="16dp"
+                    android:text="@string/label_submitted" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                style="@style/style_form_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvEmpty"
+                    style="@style/style_text_view_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/datalabel_NoRecord"
+                    android:textColor="@color/white" />
+
+                <com.lateralpraxis.apps.ccem.NonScrollableListView
+                    android:id="@+id/lvReportSummary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/white"
+                    android:dividerHeight="1sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

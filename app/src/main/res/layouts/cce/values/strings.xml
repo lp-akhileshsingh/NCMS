@@ -1,0 +1,31 @@
+<resources>
+    <string name="title_New_CCE">New CCE Form</string>
+    <string name="label_cce_summary_create">Create New CCE Form</string>
+    <string name="label_cce_summary_head">New CCE Form Summary</string>
+    <string name="label_cce_search_head">Search CCE / Crop Survey Form</string>
+    <string name="label_cce_type_mandatory">CCE Type *</string>
+    <string name="label_cce_cropname_mandatory">Crop Name *</string>
+    <string name="label_cce_pickingtype_mandatory">Picking Type *</string>
+    <string name="label_cce_cropsurveyid_mandatory">Crop Survey Id *</string>
+    <string name="label_cce_cceformid_mandatory">CCE Form Id *</string>
+    <string name="label_cce_ccesowingarea_mandatory">Sowing Area in Acre *</string>
+    <string name="label_cce_button_go">Go</string>
+    <string name="label_cce_type_display">CCE Type</string>
+    <string name="label_cce_cropname_display">Crop Name</string>
+    <string name="label_cce_pickingtype_display">Picking Type</string>
+    <string name="label_cce_formid_display">FormId</string>
+    <string name="label_cce_rowsunderstudy_mandatory">Rows of Crop under study and other Crop *</string>
+    <string name="label_cce_weedsinplot_mandatory">Weeds in selected Plot *</string>
+    <string name="label_cce_cropcomparison_mandatory">Crop condition compared to last year *</string>
+    <string name="label_cce_plantcount_mandatory">Total Count of Plant in selected Plot *</string>
+    <string name="label_cce_plantheight_mandatory">Plant height in feet *</string>
+    <string name="label_cce_squarecount_mandatory">Count of Squares *</string>
+    <string name="label_cce_flowercount_mandatory">Count of flowers *</string>
+    <string name="label_cce_ballcount_mandatory">Count of balls *</string>
+    <string name="label_cce_ballpicked_mandatory">No of ball picked *</string>
+    <string name="label_cce_weighttype_mandatory">Weight Type *</string>
+    <string name="label_cce_cottonwieght_mandatory">Weight of Cotton for plants in selected plot in Kgs. *</string>
+    <string name="label_cce_experimentweight_mandatory">Experiment Weight Details  of selected Plot *</string>
+    <string name="label_cce_expectedyieldandatory">Total Expected yield Kgs/Acre *</string>
+    <string name="label_cce_comments_mandatory">Comments *</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="ss_Site_Survey">Site Survey</string>
+    <string name="ss_Property">Property *</string>
+    <string name="ss_Property_View">Property</string>
+    <string name="ss_Obstacles">Are there any obstacles around the proposed location, particularly in E-W directions?</string>
+    <string name="ss_Earthquake">Is this village/Site earthquake or flood prone?</string>
+    <string name="ss_Big_trees">Are there any big trees or buildings within 25 meter radius?</string>
+    <string name="ss_Large_water">Are there any large water bodies within 100 meters radius?</string>
+    <string name="ss_High_tension">Are there any high tension electric lines over the instrumentation site?</string>
+    <string name="ss_Power">Are there power and transmitter cables nearby?</string>
+    <string name="ss_Network">Which network is available with good signal strength at this location?</string>
+    <string name="ss_Proposed">Is the proposed site is levelled?</string>
+    <string name="ss_Recommended">Site is recommended by Surveyor</string>
+    <string name="site_Geo_Cordinates">Geo Coordinates of Site</string>
+    <string name="site_view_Geo_Cordinates">Geo Coordinates of Site</string>
+</resources>

@@ -1,0 +1,273 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>-->
+
+        <!-- Set AppCompat’s color theming attrs -->
+        <item name="colorPrimary">@color/ncmlyellow</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimaryInverse">@android:color/black</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="edit_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:minHeight">40sp</item>
+        <item name="android:background">@android:drawable/editbox_background_normal</item>
+        <item name="android:autoText">false</item>
+    </style>
+
+    <style name="layout_background">
+        <item name="android:background">@color/ncmlblue</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="text_view">
+        <item name="android:textSize">18sp</item>
+        <item name="android:minHeight">40sp</item>
+    </style>
+
+
+    <style name="edittext">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:minHeight">40sp</item>
+        <item name="android:background">@android:drawable/editbox_background_normal</item>
+        <item name="android:autoText">false</item>
+    </style>
+
+    <style name="textview_bold">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_right">
+        <item name="android:textSize">18sp</item>
+        <item name="android:minHeight">40sp</item>
+        <item name="android:layout_gravity">end</item>
+    </style>
+
+    <style name="spinner">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:soundEffectsEnabled">true</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:background">@android:drawable/btn_dropdown</item>
+    </style>
+
+    <style name="style_dataLabel">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/datalabel</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="style_dataField">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColorHint">@color/colorEditText</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/datafield</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="custom_dialog_theme">
+        <item name="android:windowBackground">@color/dialog_background_color</item>
+    </style>
+
+    <style name="style_topBar">
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">40sp</item>
+        <item name="android:autoText">false</item>
+        <item name="android:background">@color/brown</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_padding</item>
+        <item name="android:layout_marginBottom">8sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="style_layoutPadding">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_padding</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_padding</item>
+    </style>
+
+    <style name="style_layout" parent="style_layoutPadding">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">0sp</item>
+    </style>
+
+    <style name="style_tableItem">
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">40sp</item>
+        <item name="android:autoText">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">4sp</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:paddingRight">8sp</item>
+        <item name="android:paddingTop">4sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="style_tableHead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">40sp</item>
+        <item name="android:autoText">false</item>
+        <item name="android:background">@color/colorLightGrey</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">4sp</item>
+        <item name="android:paddingLeft">8sp</item>
+        <item name="android:paddingRight">8sp</item>
+        <item name="android:paddingTop">4sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="style_sectionHead">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/ncmlyellow</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_link">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_button">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/button_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/button_horizontal_margin</item>
+        <item name="android:background">@color/ncmlyellow</item>
+    </style>
+
+    <style name="style_nextButton" parent="style_button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ncmlyellow</item>
+    </style>
+
+    <style name="style_backButton" parent="style_button">
+        <item name="android:textColor">@color/ncmlyellow</item>
+        <item name="android:background">@color/colorLightGrey</item>
+    </style>
+
+    <style name="TextLabel">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textSize">18sp</item>
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="errorTextAppearance">@style/ErrorText</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/user_input_color</item>
+        <item name="android:textColorHint">@color/unfocused_color</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/blue</item>
+        <item name="colorControlHighlight">@color/white</item>
+    </style>
+
+    <style name="ErrorText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">@dimen/textInputLayout_error_textSize</item>
+    </style>
+
+    <style name="HintText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">@dimen/textInputLayout_hint_textSize</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:colorControlNormal" tools:ignore="NewApi">@color/white</item>
+        <!--<item name="android:textColor">@android:color/darker_gray</item>-->
+        <item name="android:textSize">@dimen/textInputLayout_hint_textSize</item>
+    </style>
+
+    <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">
+        <!-- reference our hint & error styles -->
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="errorTextAppearance">@style/ErrorText</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColor">@color/user_input_color</item>
+        <item name="android:textColorHint">@color/unfocused_color</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/blue</item>
+        <item name="colorControlHighlight">@color/white</item>
+    </style>
+
+    <style name="style_form_padding">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="style_text_view">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="style_text_view_colored">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="style_text_view_bold">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

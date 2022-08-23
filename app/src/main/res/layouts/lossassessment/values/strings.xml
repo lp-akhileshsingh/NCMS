@@ -1,0 +1,39 @@
+<resources>
+    <string name="label_lossAss_head">Loss Assessment</string>
+    <string name="label_lossAss_search_head">Search Loss Assessment</string>
+    <string name="label_lossAss_head_gps">GPS of the Affected field</string>
+    <string name="label_lossAss_Form_detail">Loss Assessment Form Details</string>
+    <string name="label_lossAss_upload_head">Loss Assessment View Uploaded Images</string>
+    <string name="label_farmerType">Farmer Type *</string>
+    <string name="label_ownershipType">Ownership Type *</string>
+    <string name="label_ownershipType_view">Ownership Type</string>
+    <string name="label_khasra_survey">Khasra No. / Survey No. *</string>
+    <string name="label_khasra_survey_view">Khasra No. / Survey No.</string>
+    <string name="label_stageofloss">Stage Of Loss *</string>
+    <string name="label_stageofloss_view">Stage Of Loss</string>
+    <string name="label_causeofloss">Cause Of Loss *</string>
+    <string name="label_causeofloss_view">Cause Of Loss</string>
+    <string name="label_losspercent">Loss Percentage *</string>
+    <string name="label_losspercent_view">Loss Percentage</string>
+    <string name="sowing_date">Approx Date of Sowing *</string>
+    <string name="sowing_date_view">Approx Date of Sowing</string>
+    <string name="loss_date">Date of Loss *</string>
+    <string name="loss_date_view">Date of Loss</string>
+    <string name="lossintimation_date">Date of Loss Intimation *</string>
+    <string name="lossintimation_date_view">Date of Loss Intimation</string>
+    <string name="datehead">Date</string>
+    <string name="norecord">No Records Found</string>
+    <string name="back">Back</string>
+    <string name="update">[ Update GPS ]</string>
+    <string name="label_Add">[ Add GPS ]</string>
+    <string name="label_coordinatesHeader">Fetch GPS Details</string>
+    <string name="fetchGps">Fetch GPS Details</string>
+    <string name="link_add">Add</string>
+    <string name="datalabel_Save">Submit</string>
+    <string name="gpsDetails">GPS Details</string>
+    <string name="link_update">Update</string>
+    <string name="link_geocoordinate">Geo Coordinates of the Field</string>
+    <string name="label_noteHeader">Note:-</string>
+    <string name="label_note"><strong>Please</strong> do not click on the map till it is loaded completely.</string>
+
+</resources>

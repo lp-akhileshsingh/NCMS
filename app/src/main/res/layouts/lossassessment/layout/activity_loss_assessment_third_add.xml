@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            style="@style/style_topBar"
+            android:layout_weight=".5"
+            android:text="@string/label_lossAss_head_gps"
+            android:textAllCaps="true" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/style_form_padding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvListHeader"
+                        style="@style/style_sectionHead"
+                        android:layout_alignParentLeft="true"
+                        android:text="@string/label_coordinatesHeader" />
+
+                    <Button
+                        android:id="@+id/btnUploadImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="end"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="@string/label_upload_document"
+                        android:textAllCaps="false"
+                        android:textColor="@color/ncmlyellow"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="4sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    tools:ignore="ObsoleteLayoutParam">
+
+                    <Button
+                        android:id="@+id/btnFetchGps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_design"
+                        android:paddingLeft="5sp"
+                        android:paddingRight="5sp"
+                        android:text="@string/fetchGps"
+                        android:textAllCaps="false"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvCoordinates"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingBottom="4sp"
+                        android:paddingTop="4sp"
+                        android:textColor="@color/white" />
+
+                    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/map"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        tools:context=".LossAssessment.ActivityLossAssessmentThirdAdd" />
+
+                    <Button
+                        android:id="@+id/btnAddGps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:background="@drawable/button_design"
+                        android:paddingLeft="5sp"
+                        android:paddingRight="5sp"
+                        android:text="@string/link_add"
+                        android:textAllCaps="false"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvEmpty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="@string/norecord"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.lateralpraxis.apps.ccem.NonScrollableListView
+                            android:id="@+id/lvCoordinates"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:divider="@color/black"
+                            android:dividerHeight="1sp"
+                            android:paddingLeft="2sp" />
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/lvCoordinates"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <Button
+                                android:id="@+id/btnBack"
+                                android:layout_width="100sp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_gravity="end"
+                                android:layout_margin="1sp"
+                                android:background="@drawable/button_design"
+                                android:paddingBottom="5sp"
+                                android:paddingLeft="10sp"
+                                android:paddingRight="10sp"
+                                android:paddingTop="5sp"
+                                android:text="@string/back"
+                                android:textAllCaps="false" />
+
+                            <Button
+                                android:id="@+id/btnNext"
+                                android:layout_width="100sp"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_gravity="end"
+                                android:layout_margin="1sp"
+                                android:background="@drawable/button_design"
+                                android:paddingBottom="5sp"
+                                android:paddingLeft="10sp"
+                                android:paddingRight="10sp"
+                                android:paddingTop="5sp"
+                                android:text="@string/datalabel_Save"
+                                android:textAllCaps="false"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

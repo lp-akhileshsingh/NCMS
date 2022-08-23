@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="4sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDocumentPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvUniqueId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- 1/0 -->
+
+        <TextView
+            android:id="@+id/tvDocumentType"
+            style="@style/style_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/btnDelete"
+            android:text="@string/app_name"
+            android:textStyle="bold" />
+
+        <!-- 1/1 -->
+
+          <Button                        android:textAllCaps="false"
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/transparent"
+            android:drawableEnd="@drawable/window_close"
+            android:drawableRight="@drawable/window_close" />
+        <TextView
+            android:id="@+id/tvDocumentName"
+            style="@style/style_text_view_colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvDocumentType"
+            android:layout_toStartOf="@+id/btnDelete"
+            android:text="@string/app_name"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

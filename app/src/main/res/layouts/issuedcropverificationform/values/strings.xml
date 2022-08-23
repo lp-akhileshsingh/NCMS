@@ -1,0 +1,32 @@
+<resources>
+    <string name="label_issued_head">Insured Crop Verification Form</string>
+    <string name="label_issued_search_head">Search Insured Crop Verification Form</string>
+    <string name="label_issued_detail_head">Insured Crop Verification Form Details</string>
+    <string name="label_issued_summary_head">Insured Crop Verification Form Summary</string>
+    <string name="label_add_edit_issued">[ Add / Edit ]</string>
+    <string name="label_add_edit_search_issued">[ Search / Add / Edit ]</string>
+    <string name="label_mandatory_application_number">Application Number *</string>
+    <string name="label_revenue_circle_issued">Revenue/Hobli/Girdawar/Patwar Circle *</string>
+    <string name="label_mandatory_croponfield">Crop on field</string>
+    <string name="label_mandatory_irrigation">Irrigation *</string>
+    <string name="label_mandatory_surveyno">Survey number/khasra number *</string>
+    <string name="label_mandatory_subsurveyno">Sub Survey Number</string>
+    <string name="label_mandatory_hissno">Hissa Number</string>
+    <string name="label_mandatory_LandUnits">Land Units *</string>
+    <string name="label_mandatory_cropsownarea">Insured Area *</string>
+    <string name="label_mandatory_cropname">Crop Name *</string>
+    <string name="label_fetch_coordinates">Fetch Coordinates</string>
+    <string name="label_save_coordinates">Save Coordinates</string>
+
+
+    <string name="label_display_application_number">Application#</string>
+    <string name="label_revenue_circle_display">Revenue/Hobli/Girdawar/Patwar Circle</string>
+    <string name="label_display_irrigation">Irrigation</string>
+    <string name="label_display_surveyno">Survey number/khasra number</string>
+    <string name="label_display_subsurveyno">Sub Survey Number</string>
+    <string name="label_display_hissno">Hissa Number</string>
+    <string name="label_display_LandUnits">Land Units</string>
+    <string name="label_display_cropsownarea">Insured Area</string>
+    <string name="label_display_cropname">Crop Name</string>
+    <string name="label_form_coordinates_view">Coordinates</string>
+</resources>

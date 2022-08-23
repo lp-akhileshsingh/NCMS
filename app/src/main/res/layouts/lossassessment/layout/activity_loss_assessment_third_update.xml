@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            style="@style/style_topBar"
+            android:text="@string/label_lossAss_head_gps"
+             />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="ObsoleteLayoutParam">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="2dp"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/tvListHeader"
+                        style="@style/style_sectionHead"
+                        android:layout_alignParentLeft="true"
+                        android:layout_weight="0.5"
+                        android:text="@string/gpsDetails" />
+
+                      <Button                        android:textAllCaps="false"
+                        android:id="@+id/btnUploadImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="end"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="@string/label_upload_document"
+                        android:textColor="@color/ncmlyellow"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvCoordinates"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:paddingBottom="4sp"
+                    android:paddingTop="4sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvEmpty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/norecord"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.lateralpraxis.apps.ccem.NonScrollableListView
+                        android:id="@+id/lvCoordinates"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="@color/black"
+                        android:dividerHeight="1sp"
+                        android:padding="4sp"
+                        android:paddingLeft="2sp"
+                        tools:ignore="RtlHardcoded,RtlSymmetry"></com.lateralpraxis.apps.ccem.NonScrollableListView>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lvCoordinates"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                          <Button                        android:textAllCaps="false"
+                            android:id="@+id/btnBack"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="end"
+                            android:layout_margin="1sp" android:background="@drawable/button_design"
+                            android:paddingBottom="5sp"
+                            android:paddingLeft="10sp"
+                            android:paddingRight="10sp"
+                            android:paddingTop="5sp"
+                            android:visibility="visible"
+                            android:text="@string/back" />
+
+                        <!--To be deleted after confirmation-->
+                          <Button                        android:textAllCaps="false"
+                            android:id="@+id/btnNext"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:layout_weight="0.5"
+                            android:text="@string/datalabel_Save"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                        <!--End of To be deleted after confirmation-->
+
+                          <Button                        android:textAllCaps="false"
+                            android:id="@+id/btnUpdateGps"
+                            android:text="@string/link_update"
+                            android:layout_width="100sp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="end"
+                            android:layout_margin="1sp"
+                            android:background="@drawable/button_design"
+                            android:paddingBottom="5sp"
+                            android:paddingLeft="10sp"
+                            android:paddingRight="10sp"
+                            android:paddingTop="5sp"/>
+
+
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

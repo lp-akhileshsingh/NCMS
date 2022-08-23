@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30sp"
+        android:visibility="visible">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            tools:ignore="UselessParent">
+
+            <!-- 1/0 -->
+
+            <TextView
+                android:id="@+id/tvName"
+                style="@style/style_text_view"
+                android:layout_width="0dp"
+                android:textSize="16dp"
+                android:layout_weight=".5" />
+
+            <TextView
+                android:id="@+id/tvPending"
+                style="@style/style_text_view"
+                android:text="@string/label_pending"
+                android:layout_width="0dp"
+                android:textSize="16dp"
+                android:gravity="right"
+                android:layout_weight=".20" />
+
+            <TextView
+                android:id="@+id/tvSubmitted"
+                style="@style/style_text_view"
+                android:text="@string/label_submitted"
+                android:layout_width="0dp"
+                android:textSize="16dp"
+                android:gravity="right"
+                android:layout_weight=".30" />
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

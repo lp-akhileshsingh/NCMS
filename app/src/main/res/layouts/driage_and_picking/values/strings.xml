@@ -1,0 +1,24 @@
+<resources>
+    <string name="dap_DriageMultiplePicking">Driage &amp; Multiple Picking</string>
+    <string name="dap_TypeMan">Type *</string>
+    <string name="dap_PickingCountMan">Picking Count *</string>
+    <string name="dap_PickingWeightInKgsMan">Picking Weight in Kgs *</string>
+    <string name="dap_BundleWetWeightInKgsMan">Bundle/Wet Weight in Kgs *</string>
+    <string name="dap_NameGovtOfficerMan">Name of Govt. Officer *</string>
+    <string name="dap_DesignationGovtOfficerMan">Designation of Govt. Officer *</string>
+    <string name="dap_ContactNoGovtOfficerMan">Contact No. of Govt. Officer *</string>
+
+    <string name="dap_whetherForm2collected">Whether FORM 2 is collected from Official? *</string>
+
+    <string name="dap_Type">Type</string>
+    <string name="dap_PickingCount">Picking Count</string>
+    <string name="dap_PickingWeightInKgs">Picking Weight in Kgs</string>
+    <string name="dap_BundleWetWeightInKgs">Bundle/Wet Weight in Kgs</string>
+    <string name="dap_comments">Comments</string>
+    <string name="dap_GPSCoordinatesMan">GPS Coordinates *</string>
+    <string name="dap_GPSCoordinates">GPS Coordinates</string>
+    <string name="dap_SaveGPSCoordinates">Save GPS Coordinates</string>
+    <string name="dap_NameGovtOfficer">Name of Govt. Officer</string>
+    <string name="dap_DesignationGovtOfficer">Designation of Govt. Officer</string>
+    <string name="dap_ContactNoGovtOfficer">Contact No. of Govt. Officer</string>
+</resources>

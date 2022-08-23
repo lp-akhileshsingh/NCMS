@@ -1,0 +1,17 @@
+<resources>
+    <string name="label_driage_head">Driage Form</string>
+    <string name="label_driage_summary_view_head">View Driage Form</string>
+    <string name="label_Search">Enter text to search</string>
+    <string name="label_SearchButton">Search</string>
+    <string name="label_Officer">Officer Name</string>
+    <string name="label_Crop">Crop</string>
+    <string name="label_RandomNo">Random No</string>
+    <string name="label_SurveyDate">Survey Date</string>
+    <string name="label_CCEPlotKrasraSurveyNo">CCE Plot Khasra Survey No</string>
+    <string name="label_ExperimentWeight">Experiment Weight</string>
+    <string name="label_DryWeight">Dry Weight(in Kg) *</string>
+    <string name="label_linkAdd">Add [ + ]</string>
+    <string name="label_driage_date">Driage Date</string>
+    <string name="label_dry_weight_details_view">Dry Weight</string>
+    <string name="label_driage_upload_head">Driage Form Uploaded Files</string>
+</resources>
